@@ -1,4 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
+import TodoHead from './components/TodoHead';
+import TodoList from './components/TodoList';
 import TodoTemplate from './components/TodoTemplate';
 import logo from './logo.svg';
 
@@ -14,7 +16,10 @@ function App() {
   return (
     <>
     <GlobalStyle/>
-    <TodoTemplate>헬로우!</TodoTemplate>
+    <TodoTemplate>
+      <TodoHead />
+      <TodoList />
+    </TodoTemplate>
     </>
   );
 }

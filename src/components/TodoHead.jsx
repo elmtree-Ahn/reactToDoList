@@ -6,7 +6,7 @@ const TodoHead = () => {
     <TodoHeadBlock>
       <h1>2021년 12월 25일</h1>
       <div className="day">토요일</div>
-      
+      <div className="tasks-left">할 일 2개 남음</div>
     </TodoHeadBlock>
   );
 };
