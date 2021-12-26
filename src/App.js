@@ -19,6 +19,7 @@ function App() {
     <TodoTemplate>
       <TodoHead />
       <TodoList />
+      투두리스트 더 편집야 합니다.  https://react.vlpt.us/mashup-todolist/01-create-components.html
     </TodoTemplate>
     </>
   );
